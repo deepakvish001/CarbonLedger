@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: carbon-ledger
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
